@@ -7,7 +7,10 @@
 
 ---
 
-:dart: Coding Questions:
-- [Two Number Sum](./coding_questions/two_number_sum.md)
+### :dart: Coding Questions
 
-:teacher: About JS Questions:
+__Arrays:__
+- [Validate Subsequence](./coding_questions/arrays/validate_subsequence.md)
+- [Two Number Sum](./coding_questions/arrays/two_number_sum.md)
+
+### :teacher: About JS Questions
