@@ -13,5 +13,6 @@ __Easy:__
 - [Validate Subsequence](./coding_questions/easy/validate_subsequence.md)
 - [Two Number Sum](./coding_questions/easy/two_number_sum.md)
 - [Find Closest Value in BST](./coding_questions/easy/find_closest_value_in_bst.md)
+- [Branch Sums](./coding_questions/easy/branch_sums.md)
 
 ### :teacher: About JS Questions
