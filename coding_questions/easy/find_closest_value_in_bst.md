@@ -41,7 +41,6 @@ target = 12
 ### Solution #1 - Recursively
 
 __Walkthrough:__
-- Create a helper function that will be called recursively, this function will receive the tree, the target and the current closest value to its target;
 - The base case is if `tree == null` (aka we are outside the leaf), therefore return the `closest` value that we found;
 - Now we can check the absolute diff between `target - closest` and `target - tree.value`. If the `|target - closest| > |target - tree.value|` then we found a new `closest` value, so update it;
 - After Updating(or not) the `closest` we can perform a recursive search in the BST:
@@ -58,7 +57,7 @@ __Complexity:__
 __Code:__
 
 ```js
-function findClosestValueInBstHelper(tree, target, closest) {
+function findClosestValueInBst(tree, target, closest = tree.value) {
   if(tree == null)
     return closest;
 
@@ -66,15 +65,11 @@ function findClosestValueInBstHelper(tree, target, closest) {
     closest = tree.value;
 
   if(target < tree.value)
-    return findClosestValueInBstHelper(tree.left, target, closest)
+    return findClosestValueInBst(tree.left, target, closest)
   else if(target > tree.value)
-    return findClosestValueInBstHelper(tree.right, target, closest)
+    return findClosestValueInBst(tree.right, target, closest)
   else
     return tree.value
-}
-
-function findClosestValueInBst(tree, target) {
-  return findClosestValueInBstHelper(tree, target, tree.value);
 }
 ```
 
