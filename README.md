@@ -15,5 +15,6 @@ __Easy:__
 - [Node Depths](./coding_questions/easy/node_depths.md)
 - [Find Closest Value in BST](./coding_questions/easy/find_closest_value_in_bst.md)
 - [Branch Sums](./coding_questions/easy/branch_sums.md)
+- [Depth-first Search](./coding_questions/easy/depth-first_search.md)
 
 ### :teacher: About JS Questions
