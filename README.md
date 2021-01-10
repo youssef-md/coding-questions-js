@@ -14,6 +14,7 @@ __Easy:__
 - [Two Number Sum](./coding_questions/easy/two_number_sum.md)
 - [Product Sums](./coding_questions/easy/product_sum.md)
 - [Nth Fibonacci](./coding_questions/easy/nth_fib.md)
+- [Binary Search](./coding_questions/easy/binary_search.md)
 - [Node Depths](./coding_questions/easy/node_depths.md)
 - [Depth-first Search](./coding_questions/easy/depth-first_search.md)
 - [Find Closest Value in BST](./coding_questions/easy/find_closest_value_in_bst.md)
