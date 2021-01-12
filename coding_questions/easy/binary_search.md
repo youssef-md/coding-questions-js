@@ -78,7 +78,7 @@ function binarySearch(array, target) {
       left = middle + 1;
     else
       right = middle - 1;
-	}
+  }
   return -1;
 }
 ```
