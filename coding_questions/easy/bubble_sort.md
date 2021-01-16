@@ -18,8 +18,8 @@ array = [8, 5, 2, 9, 5, 6, 3]
 ### Solution
 
 __Walkthrough:__
-- Create a flag `isSorted` se we'll know when to stop the outer loop;
-- Create the outer loop creating a variable `finalIndexes` to count how many elements are in their final position, so we won't need to run a the swap check on them;
+- Create a flag `isSorted` se we'll know when to stop the outer loop.
+- Create the outer loop creating a variable `finalIndexes` to count how many elements are in their final position, so we won't need to run a the swap check on them.
 - Set the `isSorted` to `true`, it'll keep being `true` only if none of the elements are swaped, in this case the array will be sorted, therefore break the loop.
 - Create the inner loop that will run until `array.length - 1 - finalIndexes`, `array.length - 1` because we'll check the `i` and `i + 1` inside the loop, and `... - finalIndexes` because we don't have to run throught the entire `n` elements when there are `finalIndexes` of elements already in their final positions.
 - Check if the current element is greater than the next element, `array[i] > array[i + 1]`.

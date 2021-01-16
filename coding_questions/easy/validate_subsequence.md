@@ -23,15 +23,15 @@ true
 ### Solution
 
 __Walkthrough:__
-- Create an index to keep track of the `sequence` array;
-- Create a loop with an index that will track the `array`, this loop will run until this `arrayIdx` is smaller than the `array`'s length AND the `sequenceIdx` is smaller than the `sequence`'s length;
-- If the `sequence[sequenceIdx]` has the same value of `array[arrayIdx]`, then we found a number that is in the `array`, so increment `sequenceIdx` to keep checking the `sequence` array;
-- The code for the loop is done, it'll break if we run the entire `array`, if we run the entire `sequence`, or both;
-- Now we have to check if the `sequenceIdx == sequence.length`, if so, then we found in the `array` all the numbers that were in the `sequence`;
+- Create an index to keep track of the `sequence` array.
+- Create a loop with an index that will track the `array`, this loop will run until this `arrayIdx` is smaller than the `array`'s length AND the `sequenceIdx` is smaller than the `sequence`'s length.
+- If the `sequence[sequenceIdx]` has the same value of `array[arrayIdx]`, then we found a number that is in the `array`, so increment `sequenceIdx` to keep checking the `sequence` array.
+- The code for the loop is done, it'll break if we run the entire `array`, if we run the entire `sequence`, or both.
+- Now we have to check if the `sequenceIdx == sequence.length`, if so, then we found in the `array` all the numbers that were in the `sequence`.
 
 __Complexity:__
-- Time = O(n): We'll possibly run the entire `array` or `sequence`(wich can be a copy of the `array`);
-- Space = O(1): We are using just 2 variables: `sequenceIdx` and `arrayIdx`, this won't grow in consequence of n;
+- Time = O(n): We'll possibly run the entire `array` or `sequence`(wich can be a copy of the `array`).
+- Space = O(1): We are using just 2 variables: `sequenceIdx` and `arrayIdx`, this won't grow in consequence of n.
 
 __Code:__
 

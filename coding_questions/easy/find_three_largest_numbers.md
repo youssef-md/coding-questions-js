@@ -19,12 +19,12 @@ array  = [141, 1, 17, -7, -17, -27, 18, 541, 8, 7, 7]
 ### Solution
 
 __Walkthrough:__
-- Create the empty array `threeLargest`;
-- For each `num` of the `array`, run the `updateLargest` method(clean code xD), passing the `threeLargest` and the current `num`;
-- In the `updateLargest`, we'll have to check if the `first`, `second` or `third` is `null` or smaller than the `num`, and call `shiftAndUpdate`(clean code again xD), passing the `threeLargest`, `num` and the index of the element(`first = 0`, `second = 1`, `third = 2`);
-- The `shiftAndUpdate` will loop from `0` until the passed `index`(where the `num` is greater than `first`, `second` or `third`);
-- - If `i == idx`: we are at the number that we have to update, so the `threeLargest[i] = num`;
-- - Else: We can perform a shift, updating the `threeLargest[i]` to be `threeLargest[i + 1]`(this is to maintain a sorted `threeLargest`);
+- Create the empty array `threeLargest`.
+- For each `num` of the `array`, run the `updateLargest` method(clean code xD), passing the `threeLargest` and the current `num`.
+- In the `updateLargest`, we'll have to check if the `first`, `second` or `third` is `null` or smaller than the `num`, and call `shiftAndUpdate`(clean code again xD), passing the `threeLargest`, `num` and the index of the element(`first = 0`, `second = 1`, `third = 2`).
+- The `shiftAndUpdate` will loop from `0` until the passed `index`(where the `num` is greater than `first`, `second` or `third`).
+- - If `i == idx`: we are at the number that we have to update, so the `threeLargest[i] = num`.
+- - Else: We can perform a shift, updating the `threeLargest[i]` to be `threeLargest[i + 1]`(this is to maintain a sorted `threeLargest`).
 
 __Complexity:__
 - Time = O(n): Since we can't rely on a sorted array, we'll have to traverse it entirely.

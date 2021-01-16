@@ -41,18 +41,18 @@ target = 12
 ### Solution #1 - Recursively
 
 __Walkthrough:__
-- The base case is if `tree == null` (aka we are outside the leaf), therefore return the `closest` value that we found;
-- Now we can check the absolute diff between `target - closest` and `target - tree.value`. If the `|target - closest| > |target - tree.value|` then we found a new `closest` value, so update it;
+- The base case is if `tree == null` (aka we are outside the leaf), therefore return the `closest` value that we found.
+- Now we can check the absolute diff between `target - closest` and `target - tree.value`. If the `|target - closest| > |target - tree.value|` then we found a new `closest` value, so update it.
 - After Updating(or not) the `closest` we can perform a recursive search in the BST:
-- - `target < tree.value`: Then check only the `tree.left`;
-- - `target > tree.value`: Then check only the `tree.right`;
-- - `target == tree.value` (aka we found exactly the target in the BST): return the `tree.value`;
+- - `target < tree.value`: Then check only the `tree.left`.
+- - `target > tree.value`: Then check only the `tree.right`.
+- - `target == tree.value` (aka we found exactly the target in the BST): return the `tree.value`.
 
 __Complexity:__
-- Average Time = O(log(n)): We are performing a search in a BST, so we'll cut in half for each iteration;
-- Average Space = O(log(n)): We'll need `log(n)` function calls in our call stack, since we are using recursion;
-- Worst Time = O(n): In an unbalenced BST, we'll perform a linear search;
-- Worst Space = O(n): We'll need `n` function calls in our call stack, since we are using recursion;
+- Average Time = O(log(n)): We are performing a search in a BST, so we'll cut in half for each iteration.
+- Average Space = O(log(n)): We'll need `log(n)` function calls in our call stack, since we are using recursion.
+- Worst Time = O(n): In an unbalenced BST, we'll perform a linear search.
+- Worst Space = O(n): We'll need `n` function calls in our call stack, since we are using recursion.
 
 __Code:__
 
@@ -76,16 +76,16 @@ function findClosestValueInBst(tree, target, closest = tree.value) {
 ### Solution #2 - Iteratively
 
 __Walkthrough:__
-- We'll need two varibles for this, `currentNode`: it'll be updated based on our traversy, `closest`: it'll be updated to store the current closest value to the target;
-- After initializing the `currentNode` with the first node of the `tree`, create a loop that will run while `currentNode != null`(aka we aren't outside the leaf);
-- Compare if: `|target - closest| > |target - currentNode.value|`, if true, update the `closest` to be `currentNode.value` since the current node has a value that is closest to the `target` than the `closest` :D;
-- Now perform an iterative search in the BST, updating the `currentNode`;
+- We'll need two varibles for this, `currentNode`: it'll be updated based on our traversy, `closest`: it'll be updated to store the current closest value to the target.
+- After initializing the `currentNode` with the first node of the `tree`, create a loop that will run while `currentNode != null`(aka we aren't outside the leaf).
+- Compare if: `|target - closest| > |target - currentNode.value|`, if true, update the `closest` to be `currentNode.value` since the current node has a value that is closest to the `target` than the `closest` :D.
+- Now perform an iterative search in the BST, updating the `currentNode`.
 
 __Complexity:__
-- Average Time = O(log(n)): We are performing a search in a BST, so we'll cut in half for each iteration;
-- Average Space = O(1): We are using just two variables, the space need will never grow;
-- Worst Time = O(n): In an unbalenced BST, we'll perform a linear search;
-- Average Space = O(1): We are using just two variables, the space need will never grow;
+- Average Time = O(log(n)): We are performing a search in a BST, so we'll cut in half for each iteration.
+- Average Space = O(1): We are using just two variables, the space need will never grow.
+- Worst Time = O(n): In an unbalenced BST, we'll perform a linear search.
+- Average Space = O(1): We are using just two variables, the space need will never grow.
 
 __Code:__
 

@@ -23,16 +23,16 @@ array = [5, 2, [7, -1], 3, [6, [-13, 8], 4]]
 ### Solution
 
 __Walkthrough:__
-- Add an optative parameter `multiplier` initialized with `1`(this will help us in the recursive calls);
-- Create a variable to store the `sum`;
-- Run a loop for each item;
-- If the item is an array, add to the `sum` a function call `productSum(item, multiplier + 1)`(this will return the inner sum mutiplied with the new multiplier based on its depth);
-- If the item isn't an array, just sum the item with the `sum`;
-- Outside the loop, return the `sum * multiplier`;
+- Add an optative parameter `multiplier` initialized with `1`(this will help us in the recursive calls).
+- Create a variable to store the `sum`.
+- Run a loop for each item.
+- If the item is an array, add to the `sum` a function call `productSum(item, multiplier + 1)`(this will return the inner sum mutiplied with the new multiplier based on its depth).
+- If the item isn't an array, just sum the item with the `sum`.
+- Outside the loop, return the `sum * multiplier`.
 
 __Complexity:__
-- Time = O(n): Where `n` is all the numbers of the array and the subarrays;
-- Space = O(d): Where `d` is the depth of the subarrays, because for each new array we'll have a new function call in our call stack;
+- Time = O(n): Where `n` is all the numbers of the array and the subarrays.
+- Space = O(d): Where `d` is the depth of the subarrays, because for each new array we'll have a new function call in our call stack.
 
 __Code:__
 

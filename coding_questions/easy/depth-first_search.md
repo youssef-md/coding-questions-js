@@ -45,13 +45,13 @@ graph = A
 ### Solution
 
 __Walkthrough:__
-- Push the current instance name to the `array`;
-- Loop through all the child in the current instance `children` array;
-- Call the `depthFirstSearch` for each child and pass the `array` with all the names;
+- Push the current instance name to the `array`.
+- Loop through all the child in the current instance `children` array.
+- Call the `depthFirstSearch` for each child and pass the `array` with all the names.
 - When the loop finishes, return the `array`
 
 __Complexity:__
-- Time = O(V + E): Since we want to visit all the nodes(vertices) -> O(V) + Each node has a number E of edges and we'll traverse them recursively. Therefore V + E;
+- Time = O(V + E): Since we want to visit all the nodes(vertices) -> O(V) + Each node has a number E of edges and we'll traverse them recursively. Therefore V + E.
 
 - Space = O(V): This will be the max number of recursive `depthFirstSearch` calls in the call stack for an unbalanced graph.
 

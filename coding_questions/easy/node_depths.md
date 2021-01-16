@@ -42,13 +42,13 @@ tree =    1
 ### Solution
 
 __Walkthrough:__
-- Create an optional parameter `depth`, it will help us to store the running depth sum;
-- The base is `if(root == null)`(aka we are outside the tree), then `return 0`;
-- The recursive call is: `depth` + recursive call to `root.left` with the increased depth + recursive call to `root.right` with the increased depth;
+- Create an optional parameter `depth`, it will help us to store the running depth sum.
+- The base is `if(root == null)`(aka we are outside the tree), then `return 0`.
+- The recursive call is: `depth` + recursive call to `root.left` with the increased depth + recursive call to `root.right` with the increased depth.
 
 __Complexity:__
 - Time = O(n): We need to traverse the entire tree only once.
-- Space = O(h): Where `h` is the tree's height, this will be the max function call in our call stack;
+- Space = O(h): Where `h` is the tree's height, this will be the max function call in our call stack.
 
 __Code:__
 

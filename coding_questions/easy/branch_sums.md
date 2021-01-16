@@ -42,17 +42,17 @@ class BinaryTree {
 ### Solution
 
 __Walkthrough:__
-- Create an array to store the sums of the branches;
-- Create a helper method, for recursion, that receives the `node`, a `runningSum`(this will keep track of the current execution sum), and the `sums` array;
-- Call a helper method passing all its params;
-- In the recursive method, base case 01: check if `!node` then return;
-- Sum the `runningSum` with the current `node.value`;
-- Base case 02: if we are in a leaf node(`!node.left && !node.right`), push the `newRunningSum` to the `sums` array and return;
-- Create two recursive calls, passing `node.left` and `node.right`;
-- The recursion magic will run a DFS(Depth-First-Search) and sum all the branches of the Binary Tree;
+- Create an array to store the sums of the branches.
+- Create a helper method, for recursion, that receives the `node`, a `runningSum`(this will keep track of the current execution sum), and the `sums` array.
+- Call a helper method passing all its params.
+- In the recursive method, base case 01: check if `!node` then return.
+- Sum the `runningSum` with the current `node.value`.
+- Base case 02: if we are in a leaf node(`!node.left && !node.right`), push the `newRunningSum` to the `sums` array and return.
+- Create two recursive calls, passing `node.left` and `node.right`.
+- The recursion magic will run a DFS(Depth-First-Search) and sum all the branches of the Binary Tree.
 
 __Complexity:__
-- Time = O(n): We'll visit all the `N` nodes + some O(1) operations;
+- Time = O(n): We'll visit all the `N` nodes + some O(1) operations.
 - Space = O(n): Since in a Binary Tree each layer is double of the previous and for this problem we have to reach all the leaf nodes, we'll need `N/2` function call. + There can't be more than `N` branches.
 
 __Code:__
