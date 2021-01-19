@@ -22,5 +22,6 @@
 - [Find Closest Value in BST](./coding_questions/easy/find_closest_value_in_bst.md)
 - [Branch Sums](./coding_questions/easy/branch_sums.md)
 - [Bubble Sort](./coding_questions/easy/bubble_sort.md)
+- [Insertion Sort](./coding_questions/easy/insertion_sort.md)
 
 ### :teacher: About JS Questions
