@@ -15,6 +15,7 @@
 - [Two Number Sum](./coding_questions/easy/two_number_sum.md)
 - [Product Sums](./coding_questions/easy/product_sum.md)
 - [Nth Fibonacci](./coding_questions/easy/nth_fib.md)
+- [Minimum Waiting Time](./coding_questions/easy/minimum_waiting_time.md)
 - [Binary Search](./coding_questions/easy/binary_search.md)
 - [Find Three Largest Numbers](./coding_questions/easy/find_three_largest_numbers.md)
 - [Node Depths](./coding_questions/easy/node_depths.md)
