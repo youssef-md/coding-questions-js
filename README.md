@@ -26,5 +26,6 @@
 - [Bubble Sort](./coding_questions/easy/bubble_sort.md)
 - [Insertion Sort](./coding_questions/easy/insertion_sort.md)
 - [Selection Sort](./coding_questions/easy/selection_sort.md)
+- [Remove Duplicates from Linked List](./coding_questions/easy/remove_duplicates_linked_list.md)
 
 ### :teacher: About JS Questions
