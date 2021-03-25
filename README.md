@@ -7,26 +7,45 @@
 
 ---
 
-### :dart: Coding Questions
+## :dart: Coding Questions
 
-#### Easy:
+_:balloon: easy_
 
-- [Validate Subsequence](./coding_questions/easy/validate_subsequence.md)
-- [Two Number Sum](./coding_questions/easy/two_number_sum.md)
-- [Product Sums](./coding_questions/easy/product_sum.md)
-- [Nth Fibonacci](./coding_questions/easy/nth_fib.md)
-- [Minimum Waiting Time](./coding_questions/easy/minimum_waiting_time.md)
-- [Palindrome Check](./coding_questions/easy/palindrome_check.md)
-- [Binary Search](./coding_questions/easy/binary_search.md)
-- [Find Three Largest Numbers](./coding_questions/easy/find_three_largest_numbers.md)
-- [Node Depths](./coding_questions/easy/node_depths.md)
-- [Depth-first Search](./coding_questions/easy/depth-first_search.md)
-- [Find Closest Value in BST](./coding_questions/easy/find_closest_value_in_bst.md)
-- [Branch Sums](./coding_questions/easy/branch_sums.md)
-- [Bubble Sort](./coding_questions/easy/bubble_sort.md)
-- [Insertion Sort](./coding_questions/easy/insertion_sort.md)
-- [Selection Sort](./coding_questions/easy/selection_sort.md)
-- [Remove Duplicates from Linked List](./coding_questions/easy/remove_duplicates_linked_list.md)
-- [Sorted Squared Array](./coding_questions/easy/sorted_squared_array.md)
+### Array:
+- :balloon: [Two Number Sum](./coding_questions/easy/two_number_sum.md)
+- :balloon: [Validate Subsequence](./coding_questions/easy/validate_subsequence.md)
+- :balloon: [Sorted Squared Array](./coding_questions/easy/sorted_squared_array.md)
 
-### :teacher: About JS Questions
+### Linked Lists:
+- :balloon: [Remove Duplicates from Linked List](./coding_questions/easy/remove_duplicates_linked_list.md)
+
+### Strings:
+- :balloon: [Palindrome Check](./coding_questions/easy/palindrome_check.md)
+
+### Binary Search Trees - BST:
+- :balloon: [Find Closest Value in BST](./coding_questions/easy/find_closest_value_in_bst.md)
+
+### Binary Trees:
+- :balloon: [Branch Sums](./coding_questions/easy/branch_sums.md)
+- :balloon: [Node Depths](./coding_questions/easy/node_depths.md)
+
+### Graphs:
+- :balloon: [Depth-first Search](./coding_questions/easy/depth-first_search.md)
+
+### Greedy:
+- :balloon: [Minimum Waiting Time](./coding_questions/easy/minimum_waiting_time.md)
+
+### Recursion:
+- :balloon: [Product Sums](./coding_questions/easy/product_sum.md)
+- :balloon: [Nth Fibonacci](./coding_questions/easy/nth_fib.md)
+
+### Sorting:
+- :balloon: [Bubble Sort](./coding_questions/easy/bubble_sort.md)
+- :balloon: [Insertion Sort](./coding_questions/easy/insertion_sort.md)
+- :balloon: [Selection Sort](./coding_questions/easy/selection_sort.md)
+
+### Searching:
+- :balloon: [Binary Search](./coding_questions/easy/binary_search.md)
+- :balloon: [Find Three Largest Numbers](./coding_questions/easy/find_three_largest_numbers.md)
+
+<!-- ## :teacher: JavaScript Knowledge Questions: -->
