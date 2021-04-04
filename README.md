@@ -15,6 +15,7 @@ _:balloon: easy_
 - :balloon: [Two Number Sum](./coding_questions/easy/two_number_sum.md)
 - :balloon: [Validate Subsequence](./coding_questions/easy/validate_subsequence.md)
 - :balloon: [Sorted Squared Array](./coding_questions/easy/sorted_squared_array.md)
+- :balloon: [Minimum Non-Constructible Change](./coding_questions/easy/min_non_constructible_change.md)
 
 ### Linked Lists:
 - :balloon: [Remove Duplicates from Linked List](./coding_questions/easy/remove_duplicates_linked_list.md)
