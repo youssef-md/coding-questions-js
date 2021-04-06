@@ -35,6 +35,7 @@ _:balloon: easy_
 
 ### Greedy:
 - :balloon: [Minimum Waiting Time](./coding_questions/easy/minimum_waiting_time.md)
+- :balloon: [Class Photos](./coding_questions/easy/class_photos.md)
 
 ### Recursion:
 - :balloon: [Product Sums](./coding_questions/easy/product_sum.md)
