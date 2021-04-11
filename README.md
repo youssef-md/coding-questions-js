@@ -44,6 +44,7 @@ _:balloon: easy_
 
 - :balloon: [Minimum Waiting Time](./coding_questions/easy/minimum_waiting_time.md)
 - :balloon: [Class Photos](./coding_questions/easy/class_photos.md)
+- :balloon: [Tandem Bicycle](./coding_questions/easy/tandem_bicycle.md)
 
 ### Recursion:
 
