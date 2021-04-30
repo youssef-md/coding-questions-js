@@ -27,6 +27,7 @@ _:balloon: easy_
 - :balloon: [Palindrome Check](./coding_questions/easy/palindrome_check.md)
 - :balloon: [First Non-Repeating Character](./coding_questions/easy/first_non-repeating_character.md)
 - :balloon: [Run-Length Encoding](./coding_questions/easy/run-length_encoding.md)
+- :balloon: [Caesar Cipher Encryptor](./coding_questions/easy/caesar_cipher_encryptor.md)
 
 ### Binary Search Trees - BST:
 
